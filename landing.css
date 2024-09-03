@@ -1,0 +1,30 @@
+/* Centering text and button */
+.text-container {
+    position: relative;
+    text-align: center;
+}
+
+.pokemon-text {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.api-text {
+    font-family: 'Pokemon Solid', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Pokéball button styling */
+.pokeball-button {
+    width: 100px; /* Adjust width to fit the image */
+    height: 100px; /* Adjust height to fit the image */
+    border: none;
+    border-radius: 50%;
+    background: url("photos/1879714-pokeball.png") no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
