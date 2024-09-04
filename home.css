@@ -1,3 +1,73 @@
 body {
-    background-color: #003A70;
+    background-color: #003a70 !important;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+a {
+    color: #f9e300 !important;
+  }
+
+.poki-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+.poki-intro iframe {
+    border: 8px solid #FF0000; /* Set the border color */
+}
+
+.navbar {
+    z-index: 1000;
+    position: relative;
+}
+
+.pokemon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.pokemon-button img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.pokemon-button img:hover {
+    transform: scale(1.1);
+}
+
+/* Positioning the buttons in the corners */
+.char-container,
+.pika-container,
+.squirtle-container,
+.bulb-container {
+    position: absolute;
+    z-index: 500; /* Lower than the navbar */
+}
+
+/* Adjust position of char-container and pika-container */
+.char-container {
+    top: 80px; /* Adjust this value to move it down */
+    left: 10px;
+}
+
+.pika-container {
+    top: 80px; /* Adjust this value to move it down */
+    right: 10px;
+}
+
+.squirtle-container {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bulb-container {
+    bottom: 10px;
+    right: 10px;
 }

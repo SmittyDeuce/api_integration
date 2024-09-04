@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="home.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poki-Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Section Options</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item me-5">
-                <a class="nav-link active" href="#resume">Search</a>
-              </li>
-              <li class="nav-item me-5">
-                <a class="nav-link" href="#skills">Details</a>
-              </li>
-              <li class="nav-item me-5">
-                <a class="nav-link" href="#aboutme">Types</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#chronicles">Abilities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Moves</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#demonstrations">Generation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Team Builder</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Battle Simulator</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Poki-Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
+            <li class="nav-item me-5">
+              <a class="nav-link active" href="search/search.html">Search</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="details/details.html">Details</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="types/types.html">Types</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="abilites/abilities.html">Abilities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="moves/moves.html">Moves</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="generation/generation.html"
+                >Generation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team_builder/team_builder.html"
+                >Team Builder</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="battle_sim/battle_sim.html"
+                >Battle Simulator</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-</body>
+      </div>
+    </nav>
+
+    <div class="poki-intro">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/n59-PC1a9sc?si=7zGa5QkhoYEEo1sM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="char-container">
+      <button class="pokemon-button" onclick="handleClick('charmander')">
+          <img id="charmander" src="photos/charmander.png" alt="Charmander">
+      </button>
+  </div>
+  
+  <div class="pika-container">
+      <button class="pokemon-button" onclick="handleClick('pikachu')">
+          <img id="pikachu" src="photos/pikachu.png" alt="Pikachu">
+      </button>
+  </div>
+  
+  <div class="squirtle-container">
+      <button class="pokemon-button" onclick="handleClick('squirtle')">
+          <img id="squirtle" src="photos/squirtle.png" alt="Squirtle">
+      </button>
+  </div>
+  
+  <div class="bulb-container">
+      <button class="pokemon-button" onclick="handleClick('bulbasaur')">
+          <img id="bulbasaur" src="photos/bulbasaur.png" alt="Bulbasaur">
+      </button>
+  </div>
+
+
+
+
+
+  </body>
 </html>
