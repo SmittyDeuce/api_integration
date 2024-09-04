@@ -6,7 +6,7 @@
     <title>Pokemon Landing</title>
     <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet"> 
 
     <script src="landing.js" defer></script>
     <script src="js/bootstrap.bundle.js"></script>
@@ -15,11 +15,13 @@
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="text-container h1">
             <div class="pokemon-text pb-4" style="color: #F9E300;">Pokemon</div>
-            <button onclick="pikaSound()" class="pokeball-button"></button>
+            <a href="home.html" onclick="pikaSound(); return false;"> 
+                <button class="pokeball-button"></button> 
+            </a>
             <div class="api-text pt-0" style="color: #F9E300;">API Integration</div>
         </div>
     </div>
 
-    <audio id="pikaSound" src="audio/pikachu sounds (mp3cut.net).mp3"></audio>
+    <audio id="pikaSound" src="audio/pikachu sounds (mp3cut.net).mp3" type="audio/mp3"></audio>
 </body>
 </html>
