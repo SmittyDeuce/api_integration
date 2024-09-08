@@ -1,0 +1,23 @@
+body {
+    background-color: #003a70 !important;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: #f9e300 !important;
+  }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 56px;
+    color: #f9e300;
+}
+
+.search-container button {
+    border-radius: 33px;
+}
