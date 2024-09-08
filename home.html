@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poki-Home</title>
+    <script src="home.js" defer></script>
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -74,32 +74,51 @@
     </div>
 
     <div class="char-container">
-      <button class="pokemon-button" onclick="handleClick('charmander')">
-          <img id="charmander" src="photos/charmander.png" alt="Charmander">
+      <button class="pokemon-button" onclick="charmanderSound()">
+        <img id="charmander" src="photos/charmander.png" alt="Charmander" />
       </button>
-  </div>
-  
-  <div class="pika-container">
-      <button class="pokemon-button" onclick="handleClick('pikachu')">
-          <img id="pikachu" src="photos/pikachu.png" alt="Pikachu">
+    </div>
+
+    <div class="pika-container">
+      <button class="pokemon-button" onclick="pikaSound()">
+        <img  id="pikachu" src="photos/pikachu.png" alt="Pikachu" />
       </button>
-  </div>
-  
-  <div class="squirtle-container">
-      <button class="pokemon-button" onclick="handleClick('squirtle')">
-          <img id="squirtle" src="photos/squirtle.png" alt="Squirtle">
+    </div>
+
+    <div class="squirtle-container">
+      <button class="pokemon-button" onclick="squirtleSound()">
+        <img id="squirtle" src="photos/squirtle.png" alt="Squirtle" />
       </button>
-  </div>
-  
-  <div class="bulb-container">
-      <button class="pokemon-button" onclick="handleClick('bulbasaur')">
-          <img id="bulbasaur" src="photos/bulbasaur.png" alt="Bulbasaur">
+    </div>
+
+    <div class="bulb-container">
+      <button class="pokemon-button" onclick="bulbasaurSound()">
+        <img id="bulbasaur" src="photos/bulbasaur.png" alt="Bulbasaur" />
       </button>
-  </div>
+    </div>
 
+    <audio
+      id="pikachu-Sound"
+      src="audio/pikachuSound.mp3"
+      type="audio/mp3"
+    ></audio>
+    
+    <audio
+      id="bulbasaur-Sound"
+      src="audio/bulbasaurSound.mp3"
+      type="audio/mp3"
+    ></audio>
 
+    <audio
+      id="squirtle-Sound"
+      src="audio/squirtleSound.mp3"
+      type="audio/mp3"
+    ></audio>
 
-
-
+    <audio
+      id="charmander-Sound"
+      src="audio/charmanderSound.mp3"
+      type="audio/mp3"
+    ></audio>
   </body>
 </html>
