@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#navbar {
+    background-color: #003a70 !important;
+}
+
+a{
+    color: #f9e300 !important;
+}
+
+#pokemon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+#pokemon-container #pokemon-image {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#pokemon-name{
+    font-family: 'Pokemon Solid', sans-serif;
+    letter-spacing: 5px;
+    font-size: 45px;
+}
+
