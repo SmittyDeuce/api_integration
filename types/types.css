@@ -1,0 +1,127 @@
+/* Navbar styling */
+#navbar {
+    background-color: #003a70 !important;
+}
+
+#navbar a {
+    color: #f9e300 !important;
+}
+
+/* Heading styling */
+h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Table styling */
+table {
+    width: auto; /* Fit to content */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table */
+}
+
+/* Table cell styles */
+td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #000; /* Default text color */
+    border: 1px solid #ddd; /* Light border */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Anchor tag styles */
+td a {
+    display: block;
+    color: #000; /* Default text color */
+    text-decoration: none;
+    height: 100%; /* Ensures the <a> tag covers the entire cell */
+    width: 100%;  /* Ensures the <a> tag covers the entire cell */
+    line-height: 1.5; /* Adjust line-height for better vertical alignment */
+}
+
+/* Hover effects for table rows */
+td:hover {
+    background-color: inherit; /* Background color inherited from td */
+}
+
+/* Hover effects for links */
+td a:hover {
+    color: #fff; /* Text color on hover */
+}
+
+/* Hover effects for each Pokémon type */
+#fire:hover {
+    background-color: #F08030; /* Fire */
+}
+#water:hover {
+    background-color: #6890F0; /* Water */
+}
+#grass:hover {
+    background-color: #78C850; /* Grass */
+}
+#electric:hover {
+    background-color: #F8D030; /* Electric */
+}
+#ice:hover {
+    background-color: #98D8D8; /* Ice */
+}
+#fighting:hover {
+    background-color: #C03028; /* Fighting */
+}
+#poison:hover {
+    background-color: #A040A0; /* Poison */
+}
+#ground:hover {
+    background-color: #E0C068; /* Ground */
+}
+#flying:hover {
+    background-color: #A890F0; /* Flying */
+}
+#psychic:hover {
+    background-color: #F85888; /* Psychic */
+}
+#bug:hover {
+    background-color: #A8B820; /* Bug */
+}
+#rock:hover {
+    background-color: #B8A038; /* Rock */
+}
+#ghost:hover {
+    background-color: #705898; /* Ghost */
+}
+#dragon:hover {
+    background-color: #7038F8; /* Dragon */
+}
+#dark:hover {
+    background-color: #705848; /* Dark */
+}
+#steel:hover {
+    background-color: #B8B8D0; /* Steel */
+}
+#fairy:hover {
+    background-color: #EE99AC; /* Fairy */
+}
+#normal:hover {
+    background-color: #A8A77A; /* Normal */
+}
+
+/* Hover effect to increase cell size */
+td:hover {
+    transform: scale(1.03); /* Slightly increase size on hover */
+    z-index: 1; /* Ensure the hovered cell is on top */
+}
