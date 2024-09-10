@@ -1,0 +1,14 @@
+#navbar {
+    background-color: #003a70 !important;
+}
+
+#navbar a {
+    color: #f9e300 !important;
+}
+
+/* Heading styling */
+h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+}
+ 
