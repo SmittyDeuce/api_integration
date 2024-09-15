@@ -11,3 +11,7 @@ h1 {
     font-family: 'Pokemon Solid', sans-serif;
     text-align: center;
 }
+
+body {
+    background-color: blue;
+}
