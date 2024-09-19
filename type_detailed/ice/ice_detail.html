@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ice</title>
     <script src="ice_detail.js" defer></script>
-    <link rel="stylesheet" href="ice_detail.html" />
+    <link rel="stylesheet" href="ice_detail.css" />
     <link rel="stylesheet" href="../../css/bootstrap.css" />
   </head>
-  <body style="background-color: #96D9D6;">
+  <body style="background-color: #96d9d6">
     <nav
       id="navbar"
       class="navbar navbar-expand-lg bg-body-tertiary"
@@ -30,13 +30,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
             <li class="nav-item me-5">
-              <a class="nav-link active" href="../../search/search.html">Search</a>
+              <a class="nav-link active" href="../../search/search.html"
+                >Search</a
+              >
             </li>
             <li class="nav-item me-5">
               <a class="nav-link" href="../../types/types.html">Types</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../abilites/abilities.html">Abilities</a>
+              <a class="nav-link" href="../../abilites/abilities.html"
+                >Abilities</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../../moves/moves.html">Moves</a>
@@ -60,8 +64,74 @@
         </div>
       </div>
     </nav>
-    <img src="../type_photo/ice.png" alt="ice">
 
+    <div class="ice-title text-center">
+      <h1>Ice</h1>
+    </div>
 
+    <div class="image-container text-center">
+      <img src="../type_photo/ice.png" alt="ice" />
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6 text-center">
+        <h2>Weaknesses</h2>
+        <table class="table table-bordered weakness-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Multiplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Steel</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Rock</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Fighting</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Fire</td>
+              <td>x2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Strengths</h2>
+        <table class="table table-bordered strengths-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Multiplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Grass</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Ground</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Flying</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Dragon</td>
+              <td>x2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>

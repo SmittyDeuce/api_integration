@@ -1,14 +1,46 @@
+/* Navbar */
 #navbar {
-    background-color: #003a70 !important;
+  background-color: #003a70 !important;
 }
 
 #navbar a {
-    color: #f9e300 !important;
+  color: #f9e300 !important;
 }
 
-/* Heading styling */
-h1 {
-    font-family: 'Pokemon Solid', sans-serif;
-    text-align: center;
+/* Centered Bug Text */
+.water-title h1 {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 20px;
 }
 
+/* Image styling */
+.image-container img {
+  margin-top: 20px;
+  width: 150px;
+  height: auto;
+}
+
+/* Table styling */
+.table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* General Page Layout */
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-6 {
+  margin: 20px;
+}

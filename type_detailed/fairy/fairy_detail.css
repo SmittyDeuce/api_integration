@@ -11,3 +11,53 @@ h1 {
     font-family: 'Pokemon Solid', sans-serif;
     text-align: center;
 }
+-title h1 {
+    font-family: "Pokemon Solid", sans-serif;
+    font-size: 4rem;
+    color: #003a70;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Image styling */
+  .image-container img {
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 2px solid #003a70;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .weakness-table th,
+  .strengths-table th {
+    background-color: #003a70;
+    color: #f9e300;
+  }
+  
+  .weakness-table td,
+  .strengths-table td {
+    background-color: #f9e300;
+    color: #003a70;
+  }
+  
+  /* General Page Layout */
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .col-md-6 {
+    margin: 20px;
+  }
