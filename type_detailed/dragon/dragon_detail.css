@@ -12,7 +12,7 @@ h1 {
     text-align: center;
 }
 
--title h1 {
+.dragon-title h1 {
     font-family: "Pokemon Solid", sans-serif;
     font-size: 4rem;
     color: #003a70;
