@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="bug_detail.css" />
     <link rel="stylesheet" href="../../css/bootstrap.css" />
   </head>
-  <body style="background-color: #A6B91A;">
+  <body style="background-color: #a6b91a">
+    <!-- Navbar -->
     <nav
       id="navbar"
       class="navbar navbar-expand-lg bg-body-tertiary"
@@ -38,7 +39,7 @@
               <a class="nav-link" href="../../types/types.html">Types</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../abilites/abilities.html"
+              <a class="nav-link" href="../../abilities/abilities.html"
                 >Abilities</a
               >
             </li>
@@ -64,6 +65,69 @@
         </div>
       </div>
     </nav>
-    <img src="../type_photo/bug.png" alt="bug symbol" />
+
+    <!-- Bug Text -->
+    <div class="bug-title text-center">
+      <h1>BUG</h1>
+    </div>
+
+    <!-- Image -->
+    <div class="image-container text-center">
+      <img src="../type_photo/bug.png" alt="bug symbol" />
+    </div>
+
+    <!-- Tables for Strengths and Weaknesses -->
+    <div class="row mt-5">
+      <div class="col-md-6 text-center">
+        <h2>Weaknesses</h2>
+        <table class="table table-bordered weakness-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Multiplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Flying</td>
+              <td>x4</td>
+            </tr>
+            <tr>
+              <td>Fire</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Rock</td>
+              <td>x2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6 text-center">
+        <h2>Strengths</h2>
+        <table class="table table-bordered strengths-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Multiplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Grass</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Psychic</td>
+              <td>x2</td>
+            </tr>
+            <tr>
+              <td>Dark</td>
+              <td>x2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
