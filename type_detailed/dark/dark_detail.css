@@ -6,7 +6,7 @@
     color: #f9e300 !important;
 }
 
-/* Heading styling */
+
 h1 {
     font-family: 'Pokemon Solid', sans-serif;
     text-align: center;
@@ -19,14 +19,14 @@ h1 {
   margin-top: 20px;
 }
 
-/* Image styling */
+
 .image-container img {
   margin-top: 20px;
   width: 150px;
   height: auto;
 }
 
-/* Table styling */
+
 .table {
   width: 80%;
   margin: 0 auto;
@@ -52,7 +52,7 @@ h1 {
   color: #003a70;
 }
 
-/* General Page Layout */
+
 .row {
   display: flex;
   justify-content: center;
